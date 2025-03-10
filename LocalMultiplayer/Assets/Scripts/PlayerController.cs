@@ -57,6 +57,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void PlayerPunch(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+        {
+            Debug.Log("punched");
+            animator.SetTrigger("punchTrig");
+
+        }
+    }
+
     private void Update()
     {
         Vector3 movement = new Vector3(playerDirection.x, 0, 0) * moveSpeed * Time.deltaTime;
