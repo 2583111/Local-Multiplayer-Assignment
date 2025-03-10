@@ -138,6 +138,17 @@
                 {
                     "name": "",
                     "id": "7525ca1e-db34-43c5-a364-6fbf923851ea",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6607a2b9-fa63-430d-863b-37b0cd22e054",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
