@@ -3,6 +3,7 @@ using UnityEngine;
 public class BlockManager : MonoBehaviour
 {
     public Transform bM;
+    public int hitCount = 5;
 
     void Start()
     {
@@ -12,8 +13,21 @@ public class BlockManager : MonoBehaviour
     }
 
 
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            hitCount -=1;
+        }
     }
+
+    private void Update()
+    {
+        if (hitCount == 0)
+        {
+            GetComponent<MeshRenderer>().enabled = false;
+            bM.GetComponent<BuildingManager>().CheckDestruction();
+        }
+    }
+
 }
