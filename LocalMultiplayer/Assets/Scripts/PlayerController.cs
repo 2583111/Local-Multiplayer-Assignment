@@ -51,6 +51,7 @@ public class PlayerController : MonoBehaviour
         if (ctx.performed && isGrounded)
         {
             Debug.Log("Jump");
+            animator.SetBool("isJumping", true);
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
             isGrounded = false;
         }
@@ -68,6 +69,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+            animator.SetBool("isJumping", false);
             isGrounded = true;
         }
     }
