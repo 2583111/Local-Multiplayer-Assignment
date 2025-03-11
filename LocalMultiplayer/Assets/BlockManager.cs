@@ -43,15 +43,16 @@ public class BlockManager : MonoBehaviour
             colliderWait = Time.time + 0.5f;
         }
 
-        /*if (hitCount == 3)
+        if (hitCount == 3)
         {
-            gameObject.GetComponent<MeshFilter>().mesh = buildingState1;
+            //gameObject.GetComponent<MeshFilter>().mesh = buildingState1;
+            GetComponent<MeshRenderer>().material = bM.GetComponent<BuildingManager>().Half_Mat;
         }
 
         if (hitCount == 0)
         {
-
-        }*/
+            GetComponent<MeshRenderer>().material = bM.GetComponent<BuildingManager>().Zero_Mat;
+        }
     }
 
 }
