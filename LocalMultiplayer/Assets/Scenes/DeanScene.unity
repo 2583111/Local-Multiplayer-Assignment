@@ -732,6 +732,7 @@ MonoBehaviour:
   moveSpeed: 3
   jumpForce: 8
   rotationSpeed: 9
+  isPunching: 0
   playerDamage: 1
 --- !u!1 &832575517
 GameObject:

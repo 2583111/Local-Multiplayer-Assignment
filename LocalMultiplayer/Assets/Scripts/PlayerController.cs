@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 playerDirection;
     private Rigidbody rb;
     private bool isGrounded;
-    private bool isPunching;
+    public bool isPunching;
     private Animator animator;
     private Transform playerTransform; // Reference to character model
     private Quaternion targetRotation;
@@ -60,29 +61,35 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    float nextswing = 0;
+
     public void PlayerPunch(InputAction.CallbackContext ctx)
     {
-        Debug.Log("Punch");
 
-        isPunching = true;
-
-        if (ctx.performed)
+        if (ctx.performed && Time.time > nextswing)
         {
-            Debug.Log("punched");
+            isPunching = true;
+
             animator.SetTrigger("punchTrig");
+            nextswing = Time.time + 0.5f;
         }
 
-        isPunching = false;
-
-        Debug.Log("Punch ended");
     }
+
+
 
     private void Update()
     {
+        if (Time.time >= nextswing && isPunching)
+        {
+            isPunching = false;
+        }
+
         Vector3 movement = new Vector3(playerDirection.x, 0, 0) * moveSpeed * Time.deltaTime;
         transform.Translate(movement);
 
         playerTransform.localRotation = Quaternion.Lerp(playerTransform.localRotation, targetRotation, rotationSpeed * Time.deltaTime);
+        
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -95,13 +102,18 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-
         if (other.tag == "Building")
         {
             Debug.Log("In Building");
-            //other.gameObject.GetComponent<BlockManager>().TakeDamage();
+
+            if (isPunching)
+            {
+                Debug.Log("Punched building");
+                other.gameObject.GetComponent<BlockManager>().TakeDamage();
+            }
+
         }
     }
 }
