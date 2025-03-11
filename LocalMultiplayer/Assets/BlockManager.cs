@@ -12,15 +12,6 @@ public class BlockManager : MonoBehaviour
         GetComponent<MeshRenderer>().material = bM.GetComponent<BuildingManager>().Full_Mat;
     }
 
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            hitCount -=1;
-        }
-    }
-
     private void Update()
     {
         if (hitCount == 0)
@@ -28,6 +19,12 @@ public class BlockManager : MonoBehaviour
             GetComponent<MeshRenderer>().enabled = false;
             bM.GetComponent<BuildingManager>().CheckDestruction();
         }
+    }
+
+    public void TakeDamage()
+    {
+        Debug.Log("Taken damage");
+        hitCount -= 1;
     }
 
 }

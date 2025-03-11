@@ -9,9 +9,12 @@ public class PlayerController : MonoBehaviour
     private Vector2 playerDirection;
     private Rigidbody rb;
     private bool isGrounded;
+    private bool isPunching;
     private Animator animator;
     private Transform playerTransform; // Reference to character model
     private Quaternion targetRotation;
+
+    public int playerDamage = 1;
 
     private void Start()
     {
@@ -50,7 +53,7 @@ public class PlayerController : MonoBehaviour
     {
         if (ctx.performed && isGrounded)
         {
-            Debug.Log("Jump");
+
             animator.SetBool("isJumping", true);
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
             isGrounded = false;
@@ -59,12 +62,19 @@ public class PlayerController : MonoBehaviour
 
     public void PlayerPunch(InputAction.CallbackContext ctx)
     {
+        Debug.Log("Punch");
+
+        isPunching = true;
+
         if (ctx.performed)
         {
             Debug.Log("punched");
             animator.SetTrigger("punchTrig");
-
         }
+
+        isPunching = false;
+
+        Debug.Log("Punch ended");
     }
 
     private void Update()
@@ -81,6 +91,17 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("isJumping", false);
             isGrounded = true;
+        }
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+        if (other.tag == "Building")
+        {
+            Debug.Log("In Building");
+            //other.gameObject.GetComponent<BlockManager>().TakeDamage();
         }
     }
 }
