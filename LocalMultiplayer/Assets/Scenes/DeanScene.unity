@@ -1971,7 +1971,7 @@ MonoBehaviour:
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
   playerDamage: 1
   playerScore: 0
-  Score: {fileID: 0}
+  Score: {fileID: 650515131}
 --- !u!1 &597639778
 GameObject:
   m_ObjectHideFlags: 0
@@ -3919,7 +3919,7 @@ MonoBehaviour:
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
   playerDamage: 1
   playerScore: 0
-  Score: {fileID: 0}
+  Score: {fileID: 1190013044}
 --- !u!65 &1659478830
 BoxCollider:
   m_ObjectHideFlags: 0
