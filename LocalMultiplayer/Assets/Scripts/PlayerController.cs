@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -19,6 +20,10 @@ public class PlayerController : MonoBehaviour
     public Quaternion targetRotation;
 
     public int playerDamage = 1;
+    public float playerScore = 0;
+
+
+    public TextMeshProUGUI Score;
 
     private void Start()
     {
@@ -26,6 +31,9 @@ public class PlayerController : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         playerTransform = transform.GetChild(0);
         targetRotation = playerTransform.localRotation;
+
+        Score.text = playerScore.ToString();
+
     }
 
     public void PlayerWalk(InputAction.CallbackContext ctx)
