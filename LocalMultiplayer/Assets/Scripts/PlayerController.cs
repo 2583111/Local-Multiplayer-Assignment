@@ -11,12 +11,12 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 playerDirection;
     private Rigidbody rb;
-    private bool isGrounded;
-    private bool isClimbing = false; // Track if player is climbing
+    public bool isGrounded;
+    public bool isClimbing = false; // Track if player is climbing
     public bool isPunching;
     private Animator animator;
     private Transform playerTransform;
-    private Quaternion targetRotation;
+    public Quaternion targetRotation;
 
     public int playerDamage = 1;
 
@@ -36,15 +36,24 @@ public class PlayerController : MonoBehaviour
             Vector2 playerInput = ctx.ReadValue<Vector2>();
             playerDirection = playerInput; // Store full 2D movement (x & y)
 
-            // Flip model when changing horizontal direction
-            if (playerDirection.x > 0)
+            if (isClimbing)
             {
-                targetRotation = Quaternion.Euler(0, -270, 0); // Face right
+                targetRotation = Quaternion.Euler(0, 360, 0);
             }
-            else if (playerDirection.x < 0)
+            else
             {
-                targetRotation = Quaternion.Euler(0, -90, 0); // Face left
+
+                // Flip model when changing horizontal direction
+                if (playerDirection.x > 0)
+                {
+                    targetRotation = Quaternion.Euler(0, -270, 0); // Face right
+                }
+                else if (playerDirection.x < 0)
+                {
+                    targetRotation = Quaternion.Euler(0, -90, 0); // Face left
+                }
             }
+
         }
         else
         {
@@ -52,6 +61,7 @@ public class PlayerController : MonoBehaviour
             playerDirection = Vector2.zero;
         }
     }
+
 
     public void PlayerJump(InputAction.CallbackContext ctx)
     {
@@ -64,6 +74,7 @@ public class PlayerController : MonoBehaviour
                 rb.useGravity = true;
                 rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
                 animator.SetBool("isJumping", true);
+                animator.SetBool("isClimbing", false);
             }
             else if (isGrounded)
             {
@@ -96,9 +107,28 @@ public class PlayerController : MonoBehaviour
 
         if (isClimbing)
         {
-            // Allow vertical movement while climbing
-            Vector3 climbingMovement = new Vector3(playerDirection.x, playerDirection.y, 0) * climbSpeed * Time.deltaTime;
-            transform.Translate(climbingMovement);
+
+            if (isClimbing)
+            {
+                Vector3 climbingMovement = new Vector3(playerDirection.x, playerDirection.y, 0) * climbSpeed * Time.deltaTime;
+                transform.Translate(climbingMovement);
+
+                if (playerDirection != Vector2.zero)
+                {
+                    animator.speed = 1f; // Normal animation speed when moving
+                }
+                else
+                {
+                    animator.speed = 0f; // Freeze the animation when not moving
+                }
+            }
+            else
+            {
+                animator.speed = 1f; // Reset the animation speed when not climbing
+            }
+
+
+            targetRotation = Quaternion.Euler(0, 360, 0);
         }
         else
         {
@@ -132,6 +162,9 @@ public class PlayerController : MonoBehaviour
                 rb.linearVelocity = Vector3.zero;
                 rb.useGravity = false;
                 animator.SetBool("isJumping", false);
+                animator.SetBool("isClimbing", true);
+               
+
             }
 
             if (isPunching)
@@ -148,6 +181,7 @@ public class PlayerController : MonoBehaviour
         {
             // Exit climbing state when leaving the building
             isClimbing = false;
+            animator.SetBool("isClimbing", false);
             rb.useGravity = true;
         }
     }
