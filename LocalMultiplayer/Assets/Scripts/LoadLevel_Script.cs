@@ -23,4 +23,9 @@ public class LoadLevel_Script : MonoBehaviour
             yield return null;
         }
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
