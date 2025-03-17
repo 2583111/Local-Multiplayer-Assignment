@@ -168,7 +168,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Building"))
         {
-            Debug.Log("In Building");
+            //Debug.Log("In Building");
 
             if (!isClimbing && !isGrounded)
             {
@@ -184,7 +184,7 @@ public class PlayerController : MonoBehaviour
 
             if (isPunching)
             {
-                Debug.Log("Punched building");
+                //Debug.Log("Punched building");
                 other.gameObject.GetComponent<BlockManager>().TakeDamage(whichPlayer);
             }
         }

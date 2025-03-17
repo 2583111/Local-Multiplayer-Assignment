@@ -36,18 +36,22 @@ public class NextScreen : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (isCleared && goBack == false)
+        if (other.CompareTag("Player"))
         {
-            GameObject.Find("GameManager").GetComponent<GameManager>().ShiftNext();
-            goBack = true;
-           
+
+            if (isCleared && goBack == false)
+            {
+                GameObject.Find("GameManager").GetComponent<GameManager>().ShiftNext();
+                goBack = true;
+            }
+
+            else if (isCleared && goBack == true)
+            {
+                GameObject.Find("GameManager").GetComponent<GameManager>().ShiftBack();
+                goBack = false;
+            }
         }
 
-        if (isCleared && goBack == true)
-        {
-            GameObject.Find("GameManager").GetComponent<GameManager>().ShiftBack();
-            goBack = false;
-        }
     }
 
 }

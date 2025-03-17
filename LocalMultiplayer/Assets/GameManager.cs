@@ -19,12 +19,14 @@ public class GameManager : MonoBehaviour
 
     public void ShiftNext()
     {
+        Debug.Log(currentScreen);
+        Debug.Log("currentScreen");
         currentScreen++;
     }
 
     public void ShiftBack()
     {
-        currentScreen++;
+        currentScreen--;
     }
 
     public void Update()
