@@ -8,9 +8,11 @@ public class BuildingManager : MonoBehaviour
     public Material Zero_Mat;
 
     public List<GameObject> Parts = new List<GameObject>();
+    private Transform nS;
 
     private void Start()
     {
+        nS = this.gameObject.transform.parent;
         CountChildren();
     }
 
@@ -21,11 +23,12 @@ public class BuildingManager : MonoBehaviour
         if (Parts.Count == 0)
         {
             Debug.Log("Building destroyed");
+            nS.GetComponent<NextScreen>().ClearFromList(this.gameObject);
             //Destroy(gameObject);
         }
     }
 
-    private void CountChildren()
+    private void CountChildren()  
     {
         Parts.Clear();
 

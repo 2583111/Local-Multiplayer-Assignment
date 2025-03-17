@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
         {
             isPunching = true;
             animator.SetTrigger("punchTrig");
-            nextswing = Time.time + 0.5f;
+            nextswing = Time.time + 0.01f;
         }
     }
 
