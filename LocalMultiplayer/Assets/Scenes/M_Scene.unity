@@ -173,8 +173,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 3.5029767}
-  m_Center: {x: 0, y: 0, z: -1.2514883}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &10157867
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -245,6 +245,7 @@ MonoBehaviour:
   buildingState1: {fileID: 0}
   buildingState2: {fileID: 0}
   buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &29078382
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,8 +300,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 3.4931648}
-  m_Center: {x: 0, y: 0, z: -1.2465824}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &29078385
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -371,6 +372,7 @@ MonoBehaviour:
   buildingState1: {fileID: 0}
   buildingState2: {fileID: 0}
   buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &33366520
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,6 +1300,7 @@ GameObject:
   - component: {fileID: 92975252}
   - component: {fileID: 92975251}
   - component: {fileID: 92975250}
+  - component: {fileID: 92975253}
   m_Layer: 0
   m_Name: Building_001 (2)
   m_TagString: Untagged
@@ -1339,8 +1342,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &92975251
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1394,6 +1397,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92975248}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &92975253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92975248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &101737273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1651,6 +1672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 111539457}
+  - component: {fileID: 111539458}
   m_Layer: 0
   m_Name: Building_005
   m_TagString: Untagged
@@ -1681,6 +1703,22 @@ Transform:
   - {fileID: 1927680690}
   m_Father: {fileID: 621057166}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &111539458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111539456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b425421853ea2443900db67bdd71f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Full_Mat: {fileID: 2100000, guid: 34d6a0293c2f6c345a104b4822ffa138, type: 2}
+  Half_Mat: {fileID: 2100000, guid: dd7763d837ba46b498754893461da497, type: 2}
+  Zero_Mat: {fileID: 2100000, guid: 352a33ecc3c28414e9d027d0b9d4ad33, type: 2}
+  Parts: []
 --- !u!1 &117929991
 GameObject:
   m_ObjectHideFlags: 0
@@ -3835,7 +3873,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 1.81}
-  m_SizeDelta: {x: 0.14, y: 0.14}
+  m_SizeDelta: {x: 0.2, y: 0.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280166748
 MonoBehaviour:
@@ -4103,6 +4141,7 @@ GameObject:
   - component: {fileID: 314189346}
   - component: {fileID: 314189345}
   - component: {fileID: 314189344}
+  - component: {fileID: 314189347}
   m_Layer: 0
   m_Name: Building_001 (1)
   m_TagString: Untagged
@@ -4144,8 +4183,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &314189345
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4199,6 +4238,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314189342}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &314189347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314189342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &315007991
 GameObject:
   m_ObjectHideFlags: 0
@@ -4319,6 +4376,7 @@ GameObject:
   - component: {fileID: 330693709}
   - component: {fileID: 330693708}
   - component: {fileID: 330693707}
+  - component: {fileID: 330693710}
   m_Layer: 0
   m_Name: Building_001 (1)
   m_TagString: Untagged
@@ -4360,8 +4418,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &330693708
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4415,6 +4473,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330693705}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &330693710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330693705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &344143214
 GameObject:
   m_ObjectHideFlags: 0
@@ -4751,6 +4827,7 @@ GameObject:
   - component: {fileID: 363857589}
   - component: {fileID: 363857588}
   - component: {fileID: 363857587}
+  - component: {fileID: 363857590}
   m_Layer: 0
   m_Name: Building_001 (4)
   m_TagString: Untagged
@@ -4792,8 +4869,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &363857588
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4847,6 +4924,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363857585}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &363857590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363857585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &381114416
 GameObject:
   m_ObjectHideFlags: 0
@@ -5258,6 +5353,7 @@ GameObject:
   - component: {fileID: 390142935}
   - component: {fileID: 390142934}
   - component: {fileID: 390142933}
+  - component: {fileID: 390142936}
   m_Layer: 0
   m_Name: Building_001 (8)
   m_TagString: Untagged
@@ -5299,8 +5395,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &390142934
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5354,6 +5450,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390142931}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &390142936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390142931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1001 &391669552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5786,6 +5900,7 @@ GameObject:
   - component: {fileID: 426251152}
   - component: {fileID: 426251151}
   - component: {fileID: 426251150}
+  - component: {fileID: 426251153}
   m_Layer: 0
   m_Name: Building_001 (4)
   m_TagString: Untagged
@@ -5827,8 +5942,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &426251151
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5882,6 +5997,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426251148}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &426251153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426251148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &426985430
 GameObject:
   m_ObjectHideFlags: 0
@@ -6152,8 +6285,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 3.5057206}
-  m_Center: {x: 0, y: 0, z: -1.2528603}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &434001467
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6224,6 +6357,7 @@ MonoBehaviour:
   buildingState1: {fileID: 0}
   buildingState2: {fileID: 0}
   buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &447991176
 GameObject:
   m_ObjectHideFlags: 0
@@ -6233,6 +6367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447991177}
+  - component: {fileID: 447991178}
   m_Layer: 0
   m_Name: Building_006
   m_TagString: Untagged
@@ -6259,6 +6394,22 @@ Transform:
   - {fileID: 2032664729}
   m_Father: {fileID: 621057166}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &447991178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447991176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b425421853ea2443900db67bdd71f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Full_Mat: {fileID: 2100000, guid: 34d6a0293c2f6c345a104b4822ffa138, type: 2}
+  Half_Mat: {fileID: 2100000, guid: dd7763d837ba46b498754893461da497, type: 2}
+  Zero_Mat: {fileID: 2100000, guid: 352a33ecc3c28414e9d027d0b9d4ad33, type: 2}
+  Parts: []
 --- !u!1 &448668862
 GameObject:
   m_ObjectHideFlags: 0
@@ -6268,6 +6419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 448668863}
+  - component: {fileID: 448668864}
   m_Layer: 0
   m_Name: Building_002
   m_TagString: Untagged
@@ -6298,6 +6450,22 @@ Transform:
   - {fileID: 390142932}
   m_Father: {fileID: 621057166}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &448668864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448668862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b425421853ea2443900db67bdd71f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Full_Mat: {fileID: 2100000, guid: 34d6a0293c2f6c345a104b4822ffa138, type: 2}
+  Half_Mat: {fileID: 2100000, guid: dd7763d837ba46b498754893461da497, type: 2}
+  Zero_Mat: {fileID: 2100000, guid: 352a33ecc3c28414e9d027d0b9d4ad33, type: 2}
+  Parts: []
 --- !u!1 &452179495
 GameObject:
   m_ObjectHideFlags: 0
@@ -6495,6 +6663,7 @@ MonoBehaviour:
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
   playerDamage: 1
   playerScore: 0
+  whichPlayer: 1
   Score: {fileID: 1502289668}
 --- !u!65 &452179499
 BoxCollider:
@@ -6515,8 +6684,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.4242411, y: 1.0929284, z: 0.40024447}
+  m_Center: {x: 0.21212053, y: 0.046464205, z: 0.29987776}
 --- !u!23 &452179500
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6579,7 +6748,7 @@ Transform:
   m_GameObject: {fileID: 452179495}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.51, y: 0.05, z: -4.57}
+  m_LocalPosition: {x: -8.51, y: 0.05, z: -2.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -7037,6 +7206,7 @@ GameObject:
   - component: {fileID: 488057659}
   - component: {fileID: 488057658}
   - component: {fileID: 488057657}
+  - component: {fileID: 488057660}
   m_Layer: 0
   m_Name: Building_001 (3)
   m_TagString: Untagged
@@ -7078,8 +7248,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 3.5}
+  m_Center: {x: 0, y: 0, z: -1.25}
 --- !u!23 &488057658
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7133,6 +7303,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488057655}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &488057660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488057655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &492100085
 GameObject:
   m_ObjectHideFlags: 0
@@ -7983,6 +8171,7 @@ GameObject:
   - component: {fileID: 589702584}
   - component: {fileID: 589702583}
   - component: {fileID: 589702582}
+  - component: {fileID: 589702585}
   m_Layer: 0
   m_Name: Building_001 (1)
   m_TagString: Untagged
@@ -8024,8 +8213,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 3.5}
+  m_Center: {x: 0, y: 0, z: -1.25}
 --- !u!23 &589702583
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8079,6 +8268,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589702580}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &589702585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589702580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &591614491
 GameObject:
   m_ObjectHideFlags: 0
@@ -8307,6 +8514,7 @@ GameObject:
   - component: {fileID: 611171909}
   - component: {fileID: 611171908}
   - component: {fileID: 611171907}
+  - component: {fileID: 611171910}
   m_Layer: 0
   m_Name: Building_001 (6)
   m_TagString: Untagged
@@ -8348,8 +8556,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &611171908
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8403,6 +8611,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611171905}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &611171910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611171905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &616303634
 GameObject:
   m_ObjectHideFlags: 0
@@ -8668,6 +8894,7 @@ GameObject:
   - component: {fileID: 629404869}
   - component: {fileID: 629404868}
   - component: {fileID: 629404867}
+  - component: {fileID: 629404870}
   m_Layer: 0
   m_Name: Building_001 (5)
   m_TagString: Untagged
@@ -8709,8 +8936,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &629404868
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8764,6 +8991,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629404865}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &629404870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629404865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &638913075
 GameObject:
   m_ObjectHideFlags: 0
@@ -9463,6 +9708,7 @@ GameObject:
   - component: {fileID: 676618378}
   - component: {fileID: 676618377}
   - component: {fileID: 676618376}
+  - component: {fileID: 676618379}
   m_Layer: 0
   m_Name: Building_001 (1)
   m_TagString: Untagged
@@ -9504,8 +9750,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 3.5}
+  m_Center: {x: 0, y: 0, z: -1.25}
 --- !u!23 &676618377
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9559,6 +9805,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676618374}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &676618379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676618374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &680717529
 GameObject:
   m_ObjectHideFlags: 0
@@ -9571,7 +9835,7 @@ GameObject:
   - component: {fileID: 680717532}
   - component: {fileID: 680717531}
   m_Layer: 5
-  m_Name: P1_HP Bar
+  m_Name: P2_HP Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9754,7 +10018,7 @@ GameObject:
   - component: {fileID: 694191611}
   - component: {fileID: 694191610}
   m_Layer: 5
-  m_Name: P1_Portrait
+  m_Name: P2_Portrait
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10585,6 +10849,7 @@ GameObject:
   - component: {fileID: 778225067}
   - component: {fileID: 778225066}
   - component: {fileID: 778225065}
+  - component: {fileID: 778225068}
   m_Layer: 0
   m_Name: Building_001 (2)
   m_TagString: Untagged
@@ -10626,8 +10891,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 3.5}
+  m_Center: {x: 0, y: 0, z: -1.25}
 --- !u!23 &778225066
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10681,6 +10946,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778225063}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &778225068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778225063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &786205032
 GameObject:
   m_ObjectHideFlags: 0
@@ -11287,6 +11570,7 @@ GameObject:
   - component: {fileID: 800500581}
   - component: {fileID: 800500580}
   - component: {fileID: 800500579}
+  - component: {fileID: 800500582}
   m_Layer: 0
   m_Name: Building_001 (7)
   m_TagString: Untagged
@@ -11328,8 +11612,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &800500580
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11383,6 +11667,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800500577}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &800500582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800500577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &802742200
 GameObject:
   m_ObjectHideFlags: 0
@@ -11503,6 +11805,7 @@ GameObject:
   - component: {fileID: 818739288}
   - component: {fileID: 818739287}
   - component: {fileID: 818739286}
+  - component: {fileID: 818739289}
   m_Layer: 0
   m_Name: Building_001 (3)
   m_TagString: Untagged
@@ -11544,8 +11847,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &818739287
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11599,6 +11902,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818739284}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &818739289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818739284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &842574060
 GameObject:
   m_ObjectHideFlags: 0
@@ -11715,8 +12036,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 3
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -11961,6 +12282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 858505235}
+  - component: {fileID: 858505236}
   m_Layer: 0
   m_Name: Building_003
   m_TagString: Untagged
@@ -11987,6 +12309,22 @@ Transform:
   - {fileID: 1789802848}
   m_Father: {fileID: 621057166}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &858505236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858505234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b425421853ea2443900db67bdd71f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Full_Mat: {fileID: 2100000, guid: 34d6a0293c2f6c345a104b4822ffa138, type: 2}
+  Half_Mat: {fileID: 2100000, guid: dd7763d837ba46b498754893461da497, type: 2}
+  Zero_Mat: {fileID: 2100000, guid: 352a33ecc3c28414e9d027d0b9d4ad33, type: 2}
+  Parts: []
 --- !u!1 &859249328
 GameObject:
   m_ObjectHideFlags: 0
@@ -12919,8 +13257,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 2.0821}
-  m_SizeDelta: {x: 3.6598, y: 3.1669}
+  m_AnchoredPosition: {x: 0.012, y: 2.2}
+  m_SizeDelta: {x: 4.9257, y: 4.3584}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1002137152
 MonoBehaviour:
@@ -12969,8 +13307,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.46
-  m_fontSizeBase: 2.46
+  m_fontSize: 3.52
+  m_fontSizeBase: 3.52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13138,6 +13476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1039624430}
+  - component: {fileID: 1039624431}
   m_Layer: 0
   m_Name: Building_004
   m_TagString: Untagged
@@ -13166,6 +13505,22 @@ Transform:
   - {fileID: 1441226762}
   m_Father: {fileID: 621057166}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1039624431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039624429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b425421853ea2443900db67bdd71f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Full_Mat: {fileID: 2100000, guid: 34d6a0293c2f6c345a104b4822ffa138, type: 2}
+  Half_Mat: {fileID: 2100000, guid: dd7763d837ba46b498754893461da497, type: 2}
+  Zero_Mat: {fileID: 2100000, guid: 352a33ecc3c28414e9d027d0b9d4ad33, type: 2}
+  Parts: []
 --- !u!1 &1068930145
 GameObject:
   m_ObjectHideFlags: 0
@@ -13722,6 +14077,7 @@ GameObject:
   - component: {fileID: 1103309585}
   - component: {fileID: 1103309584}
   - component: {fileID: 1103309583}
+  - component: {fileID: 1103309586}
   m_Layer: 0
   m_Name: Building_001 (7)
   m_TagString: Untagged
@@ -13763,8 +14119,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1103309584
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13818,6 +14174,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103309581}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1103309586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103309581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1115556778
 GameObject:
   m_ObjectHideFlags: 0
@@ -14883,6 +15257,7 @@ GameObject:
   - component: {fileID: 1227604370}
   - component: {fileID: 1227604369}
   - component: {fileID: 1227604368}
+  - component: {fileID: 1227604371}
   m_Layer: 0
   m_Name: Building_001 (5)
   m_TagString: Untagged
@@ -14924,8 +15299,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1227604369
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14979,6 +15354,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227604366}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1227604371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227604366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1251017595
 GameObject:
   m_ObjectHideFlags: 0
@@ -15111,8 +15504,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 3.5451727}
-  m_Center: {x: 0, y: 0, z: -1.2725863}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1262111994
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15183,6 +15576,7 @@ MonoBehaviour:
   buildingState1: {fileID: 0}
   buildingState2: {fileID: 0}
   buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1262183434
 GameObject:
   m_ObjectHideFlags: 0
@@ -15303,6 +15697,7 @@ GameObject:
   - component: {fileID: 1271360114}
   - component: {fileID: 1271360113}
   - component: {fileID: 1271360112}
+  - component: {fileID: 1271360115}
   m_Layer: 0
   m_Name: Building_001 (2)
   m_TagString: Untagged
@@ -15344,8 +15739,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1271360113
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15399,6 +15794,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271360110}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1271360115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271360110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1273224578
 GameObject:
   m_ObjectHideFlags: 0
@@ -15519,6 +15932,7 @@ GameObject:
   - component: {fileID: 1281134832}
   - component: {fileID: 1281134831}
   - component: {fileID: 1281134830}
+  - component: {fileID: 1281134833}
   m_Layer: 0
   m_Name: Building_001 (3)
   m_TagString: Untagged
@@ -15560,8 +15974,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1281134831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15615,6 +16029,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281134828}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1281134833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281134828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1288298918
 GameObject:
   m_ObjectHideFlags: 0
@@ -16011,6 +16443,7 @@ GameObject:
   - component: {fileID: 1307827277}
   - component: {fileID: 1307827276}
   - component: {fileID: 1307827275}
+  - component: {fileID: 1307827278}
   m_Layer: 0
   m_Name: Building_001 (3)
   m_TagString: Untagged
@@ -16052,8 +16485,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1307827276
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16107,6 +16540,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307827273}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1307827278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307827273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1322024461
 GameObject:
   m_ObjectHideFlags: 0
@@ -16408,7 +16859,7 @@ GameObject:
   - component: {fileID: 1348762257}
   - component: {fileID: 1348762256}
   m_Layer: 5
-  m_Name: P1_Name
+  m_Name: P2_Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16868,6 +17319,7 @@ GameObject:
   - component: {fileID: 1406844168}
   - component: {fileID: 1406844167}
   - component: {fileID: 1406844166}
+  - component: {fileID: 1406844169}
   m_Layer: 0
   m_Name: Building_001 (6)
   m_TagString: Untagged
@@ -16909,8 +17361,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1406844167
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16964,6 +17416,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406844164}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1406844169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406844164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1409176317
 GameObject:
   m_ObjectHideFlags: 0
@@ -17454,6 +17924,7 @@ GameObject:
   - component: {fileID: 1441226765}
   - component: {fileID: 1441226764}
   - component: {fileID: 1441226763}
+  - component: {fileID: 1441226766}
   m_Layer: 0
   m_Name: Building_001 (6)
   m_TagString: Untagged
@@ -17495,8 +17966,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1441226764
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17550,6 +18021,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1441226761}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1441226766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441226761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1445435946
 GameObject:
   m_ObjectHideFlags: 0
@@ -17670,6 +18159,7 @@ GameObject:
   - component: {fileID: 1454101759}
   - component: {fileID: 1454101758}
   - component: {fileID: 1454101757}
+  - component: {fileID: 1454101760}
   m_Layer: 0
   m_Name: Building_001 (4)
   m_TagString: Untagged
@@ -17711,8 +18201,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1454101758
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17766,6 +18256,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454101755}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1454101760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454101755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1458427320
 GameObject:
   m_ObjectHideFlags: 0
@@ -18007,6 +18515,7 @@ GameObject:
   - component: {fileID: 1459746174}
   - component: {fileID: 1459746173}
   - component: {fileID: 1459746172}
+  - component: {fileID: 1459746175}
   m_Layer: 0
   m_Name: Building_001 (5)
   m_TagString: Untagged
@@ -18048,8 +18557,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1459746173
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18103,6 +18612,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459746170}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1459746175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459746170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1468402555
 GameObject:
   m_ObjectHideFlags: 0
@@ -18866,7 +19393,7 @@ GameObject:
   - component: {fileID: 1502289669}
   - component: {fileID: 1502289668}
   m_Layer: 5
-  m_Name: P1_Score
+  m_Name: P2_Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19974,6 +20501,7 @@ GameObject:
   - component: {fileID: 1589981552}
   - component: {fileID: 1589981551}
   - component: {fileID: 1589981550}
+  - component: {fileID: 1589981553}
   m_Layer: 0
   m_Name: Building_001 (2)
   m_TagString: Untagged
@@ -20015,8 +20543,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1589981551
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20070,6 +20598,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589981548}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1589981553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589981548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1590738584
 GameObject:
   m_ObjectHideFlags: 0
@@ -20514,6 +21060,7 @@ GameObject:
   - component: {fileID: 1613824418}
   - component: {fileID: 1613824417}
   - component: {fileID: 1613824416}
+  - component: {fileID: 1613824419}
   m_Layer: 0
   m_Name: Building_001 (3)
   m_TagString: Untagged
@@ -20555,8 +21102,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 3.5}
+  m_Center: {x: 0, y: 0, z: -1.25}
 --- !u!23 &1613824417
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20610,6 +21157,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613824414}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1613824419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613824414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1613952085
 GameObject:
   m_ObjectHideFlags: 0
@@ -21416,6 +21981,7 @@ GameObject:
   - component: {fileID: 1692070797}
   - component: {fileID: 1692070796}
   - component: {fileID: 1692070795}
+  - component: {fileID: 1692070798}
   m_Layer: 0
   m_Name: Building_001 (1)
   m_TagString: Untagged
@@ -21457,8 +22023,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1692070796
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21512,6 +22078,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692070793}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1692070798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692070793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1694457061
 GameObject:
   m_ObjectHideFlags: 0
@@ -23019,6 +23603,7 @@ GameObject:
   - component: {fileID: 1789802851}
   - component: {fileID: 1789802850}
   - component: {fileID: 1789802849}
+  - component: {fileID: 1789802852}
   m_Layer: 0
   m_Name: Building_001 (4)
   m_TagString: Untagged
@@ -23060,8 +23645,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 3.5}
+  m_Center: {x: 0, y: 0, z: -1.25}
 --- !u!23 &1789802850
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23115,6 +23700,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789802847}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1789802852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789802847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1795932923
 GameObject:
   m_ObjectHideFlags: 0
@@ -24179,6 +24782,7 @@ MonoBehaviour:
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
   playerDamage: 1
   playerScore: 0
+  whichPlayer: 0
   Score: {fileID: 1758316193}
 --- !u!65 &1864847191
 BoxCollider:
@@ -24199,8 +24803,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2644615, y: 1.308599, z: 0.20437884}
+  m_Center: {x: 0.13223076, y: 0.15429953, z: -0.39781058}
 --- !u!23 &1864847192
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24895,10 +25499,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1920}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -25178,6 +25782,7 @@ GameObject:
   - component: {fileID: 1927680693}
   - component: {fileID: 1927680692}
   - component: {fileID: 1927680691}
+  - component: {fileID: 1927680694}
   m_Layer: 0
   m_Name: Building_001 (8)
   m_TagString: Untagged
@@ -25219,8 +25824,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1927680692
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25274,6 +25879,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927680689}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1927680694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927680689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1927892868
 GameObject:
   m_ObjectHideFlags: 0
@@ -25436,8 +26059,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 3.535008}
-  m_Center: {x: 0, y: 0, z: -1.2675037}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &1936420863
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25508,6 +26131,7 @@ MonoBehaviour:
   buildingState1: {fileID: 0}
   buildingState2: {fileID: 0}
   buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &1936784037
 GameObject:
   m_ObjectHideFlags: 0
@@ -26168,6 +26792,7 @@ GameObject:
   - component: {fileID: 1993914837}
   - component: {fileID: 1993914836}
   - component: {fileID: 1993914835}
+  - component: {fileID: 1993914838}
   m_Layer: 0
   m_Name: Building_001 (2)
   m_TagString: Untagged
@@ -26209,8 +26834,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 3.5}
+  m_Center: {x: 0, y: 0, z: -1.25}
 --- !u!23 &1993914836
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26264,6 +26889,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993914833}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1993914838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993914833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &2012460442
 GameObject:
   m_ObjectHideFlags: 0
@@ -26318,8 +26961,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 3.5379684}
-  m_Center: {x: 0, y: 0, z: -1.2689842}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &2012460445
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26390,6 +27033,7 @@ MonoBehaviour:
   buildingState1: {fileID: 0}
   buildingState2: {fileID: 0}
   buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &2023971657
 GameObject:
   m_ObjectHideFlags: 0
@@ -26511,6 +27155,7 @@ GameObject:
   - component: {fileID: 2032664732}
   - component: {fileID: 2032664731}
   - component: {fileID: 2032664730}
+  - component: {fileID: 2032664733}
   m_Layer: 0
   m_Name: Building_001 (4)
   m_TagString: Untagged
@@ -26552,8 +27197,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 3.5}
+  m_Center: {x: 0, y: 0, z: -1.25}
 --- !u!23 &2032664731
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26607,6 +27252,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032664728}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2032664733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032664728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a809b782c5fa894a90065abdbb5afdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bM: {fileID: 0}
+  hitCount: 5
+  buildingState1: {fileID: 0}
+  buildingState2: {fileID: 0}
+  buildingState3: {fileID: 0}
+  defaultScore: 50
 --- !u!1 &2042682640
 GameObject:
   m_ObjectHideFlags: 0
@@ -27275,6 +27938,6 @@ SceneRoots:
   - {fileID: 471105265}
   - {fileID: 43127352}
   - {fileID: 1917053148}
-  - {fileID: 452179502}
   - {fileID: 1864847194}
+  - {fileID: 452179502}
   - {fileID: 1922581615}

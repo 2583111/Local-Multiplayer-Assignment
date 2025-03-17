@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
 
     public int playerDamage = 1;
     public float playerScore = 0;
+    public int whichPlayer;
+
 
 
     public TextMeshProUGUI Score;
@@ -106,6 +108,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void updateScore ()
+    {
+        Score.text = playerScore.ToString();
+    }
+
     private void Update()
     {
         if (Time.time >= nextswing && isPunching)
@@ -178,7 +185,7 @@ public class PlayerController : MonoBehaviour
             if (isPunching)
             {
                 Debug.Log("Punched building");
-                other.gameObject.GetComponent<BlockManager>().TakeDamage();
+                other.gameObject.GetComponent<BlockManager>().TakeDamage(whichPlayer);
             }
         }
     }

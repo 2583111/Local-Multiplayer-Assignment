@@ -21,7 +21,7 @@ public class BuildingManager : MonoBehaviour
         if (Parts.Count == 0)
         {
             Debug.Log("Building destroyed");
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 

@@ -9,18 +9,26 @@ public class BlockManager : MonoBehaviour
     public Mesh buildingState2;
     public Mesh buildingState3;
 
+    public float defaultScore = 50;
+
+    private GameObject player1;
+    private GameObject player2;
+
+
     void Start()
     {
         bM = transform.parent;
 
         GetComponent<MeshRenderer>().material = bM.GetComponent<BuildingManager>().Full_Mat;
+
+        player1 = GameObject.Find("Player 1");
+        player2 = GameObject.Find("Player 2");
     }
 
     private void Update()
     {
         if (hitCount == 0)
         {
-            GetComponent<MeshRenderer>().enabled = false;
             bM.GetComponent<BuildingManager>().CheckDestruction();
         }
 
@@ -32,7 +40,7 @@ public class BlockManager : MonoBehaviour
 
     float colliderWait = 0;
 
-    public void TakeDamage()
+    public void TakeDamage(int thisPlayer)
     {
         GetComponent<BoxCollider>().enabled = false;
         Debug.Log("Taken damage");
@@ -51,7 +59,22 @@ public class BlockManager : MonoBehaviour
 
         if (hitCount == 0)
         {
+            if (thisPlayer == 0)
+            {
+                PlayerController p1 = player1.GetComponent<PlayerController>();
+                p1.playerScore += defaultScore;
+                p1.updateScore();
+            }
+
+            else
+            {
+                PlayerController p2 = player2.GetComponent<PlayerController>();
+                p2.playerScore += defaultScore;
+                p2.updateScore();
+            }
+
             GetComponent<MeshRenderer>().material = bM.GetComponent<BuildingManager>().Zero_Mat;
+            GetComponent<BoxCollider>().enabled = false;
         }
     }
 
