@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
     public float playerScore = 0;
     public int whichPlayer;
 
+    public float playerZPos;
+
 
 
     public TextMeshProUGUI Score;
@@ -153,6 +155,10 @@ public class PlayerController : MonoBehaviour
         }
 
         playerTransform.localRotation = Quaternion.Lerp(playerTransform.localRotation, targetRotation, rotationSpeed * Time.deltaTime);
+
+
+        gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, playerZPos);
+
     }
 
     private void OnCollisionEnter(Collision collision)

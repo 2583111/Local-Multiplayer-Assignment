@@ -15,12 +15,11 @@ public class GameManager : MonoBehaviour
     {
         MainCamera = GameObject.Find("Main Camera");
         MainCamera.transform.position = cameraPositions[0].position;
+
     }
 
     public void ShiftNext()
     {
-        Debug.Log(currentScreen);
-        Debug.Log("currentScreen");
         currentScreen++;
     }
 
