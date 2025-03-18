@@ -124,6 +124,7 @@ public class PlayerController : MonoBehaviour
 
         if (isClimbing)
         {
+           
 
             if (isClimbing)
             {
@@ -156,8 +157,11 @@ public class PlayerController : MonoBehaviour
 
         playerTransform.localRotation = Quaternion.Lerp(playerTransform.localRotation, targetRotation, rotationSpeed * Time.deltaTime);
 
-
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, playerZPos);
+        if (isGrounded)
+        {
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, playerZPos);
+        }
+       
 
     }
 
@@ -180,6 +184,9 @@ public class PlayerController : MonoBehaviour
             {
                 // Latch onto building
                 isClimbing = true;
+
+                gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, other.transform.position.z-1.8f);
+
                 rb.linearVelocity = Vector3.zero;
                 rb.useGravity = false;
                 animator.SetBool("isJumping", false);
