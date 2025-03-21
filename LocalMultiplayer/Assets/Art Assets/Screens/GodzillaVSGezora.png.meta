@@ -1,0 +1,1778 @@
+fileFormatVersion: 2
+guid: 605c1ee200c86024fa7b57caad6d33c7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GodzillaVSGezora_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3130
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d45b49d9910e134981b6d7c8ce86ed5
+      internalID: 1830478684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_1
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3130
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8167290063acd428c0ac48a6bf3b06
+      internalID: -427453034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_2
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3130
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5a36b5fd913e740a55dc562e5c7c11
+      internalID: 506200666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_3
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 3130
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ccbd69ad17dda46967929703976812
+      internalID: 1132149804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_4
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3130
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f378784e36f90794ab86f7e905cb7752
+      internalID: -1287744910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_5
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3130
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96420a083097dc846968eb30a92ee615
+      internalID: 2136552754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_6
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3130
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c3aff5ae2f3474492d42fb014f9e16
+      internalID: 1151670221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2817
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2749c3c618c72f84f967abaca8bea31f
+      internalID: 366825242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2817
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd3cd345db4b824685525abf87913e7
+      internalID: 1645521237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2817
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546d45817697a5c4896776a27f923e88
+      internalID: -1988224055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 2817
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b483534907704d644bd3fdc38dc8baad
+      internalID: 1239826179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_11
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2817
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bdf0b9196db674ba5e8b17661fe7f4
+      internalID: 249623263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_12
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2817
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9f1ca3a7c42a74ebd25088414ab146
+      internalID: -1428852136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_13
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2817
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7695d575eaaa8bf41adf3891c1b7af21
+      internalID: 1423409772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2504
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cda86a236c691b46b208cdc2f755936
+      internalID: -256149297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_15
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2504
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f569c9f57b7bc947aabbbffc886e1ef
+      internalID: 1783264847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_16
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2504
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c5960a3cfc7cf499e54407666454f3
+      internalID: -1762861394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_17
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 2504
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0393017cb2b901f408ace80a5b1db139
+      internalID: 1369105446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_18
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2504
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4628048c316cc174083f7c145f3aadf4
+      internalID: 1533269226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_19
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2504
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49440d507cc6c814f8d8df956e716f2f
+      internalID: 1184638382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_20
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2504
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a784c15dca8ef4390d040a5a03279c
+      internalID: 1810007115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2191
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c712d63b2f546d45be6063d0d11c2d1
+      internalID: -751705017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2191
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e663b2729d7b8e44bec307bac5836ec
+      internalID: -293681879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_23
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2191
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5e0520c8fb2624cb08a5cba21f6ee3
+      internalID: 976460576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_24
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 2191
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747aac06ecfc00443b605294b4492d59
+      internalID: 1858375729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_25
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2191
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a34f185fd027564e84365b12ccf5aa6
+      internalID: 333304341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_26
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2191
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bc38a5897f2914bb01aed5a6e5223a
+      internalID: -1236902350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_27
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2191
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a51ff819d407b4fbf417a26aeb4131
+      internalID: 1408878656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1878
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae036c6e5d0db44ab97311f4f6253e0
+      internalID: 605075375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_29
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1878
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1013268415f43674fb58dc8436ca2f45
+      internalID: -619617644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_30
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1878
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ef601b13ac9dd41a36659548adc142
+      internalID: 418733209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_31
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1878
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab760ff14dfa7d4a9fd4ff15fadc12c
+      internalID: 1216846953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_32
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1878
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd960577384f199409bb543c87c78346
+      internalID: 820546552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_33
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1878
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed18bdbf0ad2874d8386dcbe8297738
+      internalID: 1789570370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_34
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1878
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb31a141b43f69f4a9d7c055663099b3
+      internalID: 1350645265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1565
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb28ba98d5f215b4f8f12328252a8bbe
+      internalID: -1237401449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_36
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1565
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253e4df12ac194542841ac714cab6475
+      internalID: -1680003418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_37
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1565
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d98c5dd6e75ce4f9390ecae6a0a5cf
+      internalID: 58508206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_38
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1565
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07c08e463da92943b416a8022797ce8
+      internalID: 646841983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_39
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1565
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e8cb1a0eb89e2428c25d25df2b8457
+      internalID: -37008747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_40
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1565
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdbea896543bb149bbdf3800cbbdfc3
+      internalID: -100944460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_41
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1565
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff95a44f86278604d9d407c1d3c678e0
+      internalID: -369946521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1252
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03f2d5de64436f4ca29657ecbe3af07
+      internalID: 1760020728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_43
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1252
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec38162d5a0a24d4e940e63a3c8223db
+      internalID: 918916054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_44
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1252
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0358f96f407f893478f751e455e56329
+      internalID: -1195292718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_45
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1252
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f6000ae488f76459198c6abd8bb8d1
+      internalID: 1592758411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_46
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1252
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7ecc1093e3f46469376749769599ab
+      internalID: 24163717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_47
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1252
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f375cf5ccbb56d4591e6a6f07d72907
+      internalID: 507062893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_48
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1252
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4745f3b64823457478e0d420a0c3d716
+      internalID: 1906918065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 939
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495b93adb4be7b54eb43576c57b15f61
+      internalID: -1434165140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_50
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 939
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ab79d86842592409ea7980940b6896
+      internalID: -1176440738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_51
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 939
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016c602eecac363458f6d16bd8e0edee
+      internalID: -1232991446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_52
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 939
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1628bc057dc5b8a43b5e396ebb1ea7c2
+      internalID: -1456262666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_53
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 939
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9835ace6af0ca3043b942f706ac78605
+      internalID: -1416809962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_54
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 939
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d675b3eb39f73848b2978615e0307d2
+      internalID: 610043067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_55
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 939
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388f4530fc31af440a44cac91465e1d7
+      internalID: 787025417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2903b577618077408c8ce27fb9ba052
+      internalID: -147836826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_57
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 626
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7218b2f21b2044eb9826f1dc92e891
+      internalID: -378753273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_58
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 626
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcd9eecf2edc20478e2ee371ffcf2f1
+      internalID: -1221452069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_59
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 626
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae435d41757d2d40a03f2deb123b0da
+      internalID: 1923206960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_60
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 626
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd36b2011e5296e42b77974b60418210
+      internalID: -2144849852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_61
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 626
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adc03c58e7fbb24fa0631bc86037be0
+      internalID: 1083951550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_62
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 626
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1737bbe2d561283429c2b90eb2cd09ea
+      internalID: 533365985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 313
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f1e260272f6bc478bc7fffc5c91a36
+      internalID: -2019104113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_64
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 313
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb763a0a1647320408bd50a6fbeb4b20
+      internalID: 1962574705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_65
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 313
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cea99d5a6983141ab9cb3affa9cb3d
+      internalID: 136227814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_66
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 313
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923d8ec6cdbafc14783319781d203beb
+      internalID: -649667621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_67
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 313
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea11a8488a96f7640afdc455b25dca7d
+      internalID: 1394356517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_68
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 313
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c115e3ca9bb1c6a488aa1700afe8b68f
+      internalID: -2107739777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_69
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 313
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484330143095fe74d87b4b28c084c724
+      internalID: 941756290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dede961b2be156428d63c80192f1232
+      internalID: -405503802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodzillaVSGezora_71
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 540
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c465bb20ec02d47b171cd436a6cd81
+      internalID: 201600032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d8509440972784d4a94b4a668966be59
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GodzillaVSGezora_0: 1830478684
+      GodzillaVSGezora_1: -427453034
+      GodzillaVSGezora_10: 1239826179
+      GodzillaVSGezora_11: 249623263
+      GodzillaVSGezora_12: -1428852136
+      GodzillaVSGezora_13: 1423409772
+      GodzillaVSGezora_14: -256149297
+      GodzillaVSGezora_15: 1783264847
+      GodzillaVSGezora_16: -1762861394
+      GodzillaVSGezora_17: 1369105446
+      GodzillaVSGezora_18: 1533269226
+      GodzillaVSGezora_19: 1184638382
+      GodzillaVSGezora_2: 506200666
+      GodzillaVSGezora_20: 1810007115
+      GodzillaVSGezora_21: -751705017
+      GodzillaVSGezora_22: -293681879
+      GodzillaVSGezora_23: 976460576
+      GodzillaVSGezora_24: 1858375729
+      GodzillaVSGezora_25: 333304341
+      GodzillaVSGezora_26: -1236902350
+      GodzillaVSGezora_27: 1408878656
+      GodzillaVSGezora_28: 605075375
+      GodzillaVSGezora_29: -619617644
+      GodzillaVSGezora_3: 1132149804
+      GodzillaVSGezora_30: 418733209
+      GodzillaVSGezora_31: 1216846953
+      GodzillaVSGezora_32: 820546552
+      GodzillaVSGezora_33: 1789570370
+      GodzillaVSGezora_34: 1350645265
+      GodzillaVSGezora_35: -1237401449
+      GodzillaVSGezora_36: -1680003418
+      GodzillaVSGezora_37: 58508206
+      GodzillaVSGezora_38: 646841983
+      GodzillaVSGezora_39: -37008747
+      GodzillaVSGezora_4: -1287744910
+      GodzillaVSGezora_40: -100944460
+      GodzillaVSGezora_41: -369946521
+      GodzillaVSGezora_42: 1760020728
+      GodzillaVSGezora_43: 918916054
+      GodzillaVSGezora_44: -1195292718
+      GodzillaVSGezora_45: 1592758411
+      GodzillaVSGezora_46: 24163717
+      GodzillaVSGezora_47: 507062893
+      GodzillaVSGezora_48: 1906918065
+      GodzillaVSGezora_49: -1434165140
+      GodzillaVSGezora_5: 2136552754
+      GodzillaVSGezora_50: -1176440738
+      GodzillaVSGezora_51: -1232991446
+      GodzillaVSGezora_52: -1456262666
+      GodzillaVSGezora_53: -1416809962
+      GodzillaVSGezora_54: 610043067
+      GodzillaVSGezora_55: 787025417
+      GodzillaVSGezora_56: -147836826
+      GodzillaVSGezora_57: -378753273
+      GodzillaVSGezora_58: -1221452069
+      GodzillaVSGezora_59: 1923206960
+      GodzillaVSGezora_6: 1151670221
+      GodzillaVSGezora_60: -2144849852
+      GodzillaVSGezora_61: 1083951550
+      GodzillaVSGezora_62: 533365985
+      GodzillaVSGezora_63: -2019104113
+      GodzillaVSGezora_64: 1962574705
+      GodzillaVSGezora_65: 136227814
+      GodzillaVSGezora_66: -649667621
+      GodzillaVSGezora_67: 1394356517
+      GodzillaVSGezora_68: -2107739777
+      GodzillaVSGezora_69: 941756290
+      GodzillaVSGezora_7: 366825242
+      GodzillaVSGezora_70: -405503802
+      GodzillaVSGezora_71: 201600032
+      GodzillaVSGezora_72: 717986100
+      GodzillaVSGezora_73: 1814326814
+      GodzillaVSGezora_74: -1332812808
+      GodzillaVSGezora_75: -2029929138
+      GodzillaVSGezora_76: 323604325
+      GodzillaVSGezora_8: 1645521237
+      GodzillaVSGezora_9: -1988224055
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

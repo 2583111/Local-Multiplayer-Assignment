@@ -14,7 +14,7 @@ public class StartSound : MonoBehaviour
 
     IEnumerator SoundControl()
     {
-        yield return new WaitForSecondsRealtime(6);
+        yield return new WaitForSecondsRealtime(10);
         Monster.SetActive(true);
         MonsterRoar.Play();
         if (Loader.activeSelf == false)
