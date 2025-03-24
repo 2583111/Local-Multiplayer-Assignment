@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &9181130698230461110
 RectTransform:
   m_ObjectHideFlags: 0
@@ -550,7 +550,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Left Joystick\n\n\nA/ Square \n\n\nX/ Triangle\n\n\nStart Button"
+  m_text: "Left Joystick/ D-Pad\n\nA (Xbox) / X (PlayStation) \n\nX (Xbox)/ Square
+    (PlayStation)\n-------"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 01605fde2b345444188b6503b4007f96, type: 2}
   m_sharedMaterial: {fileID: -2995662926904431325, guid: 01605fde2b345444188b6503b4007f96, type: 2}
@@ -874,7 +875,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1477744865559982271
 RectTransform:
   m_ObjectHideFlags: 0
