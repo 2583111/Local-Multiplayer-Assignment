@@ -1,9 +1,59 @@
 fileFormatVersion: 2
-guid: c071341a813621a448874609ec4b72c9
+guid: a7297b8978bde27498a30443e14bcf42
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: b3af6d0d37bcb514dbed92f3c8afe31a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue
+    second: {fileID: 2100000, guid: 9b97b6dc62af47e4ebeb466dbaa19854, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueL
+    second: {fileID: 2100000, guid: 2ade5ff899c348647aee47597a49a9b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #36
+    second: {fileID: 2100000, guid: 23771531b6823ba4a9a450d04bbb0b82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: deb26f357d426f145a036776bb306fb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedL
+    second: {fileID: 2100000, guid: 4a23366e91e53ac419b93b11a4e54457, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver
+    second: {fileID: 2100000, guid: e47f02f636794fe4ba002e68af6aa08d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: bec869fa1d55e6c498206ae5aed3895b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow
+    second: {fileID: 2100000, guid: 85466559c4d8a65428f7cd3edc67dec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YellowL
+    second: {fileID: 2100000, guid: ef4cf11434c387641863dc10f5bf32aa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
