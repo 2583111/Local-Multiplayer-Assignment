@@ -1,0 +1,1244 @@
+fileFormatVersion: 2
+guid: 68917a7050d1c934dad3905edd3d936b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08db3d905d3cd54193d919b61b70f7b
+      internalID: 788214712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897627f8fa52a63449efb4e34294e344
+      internalID: 2091502743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5752cf094012c634797dd259230b214c
+      internalID: -984776804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1f685239b96ea44a0509a219ef9c81
+      internalID: -571723396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5da0a2b4f3782a49ac654bca8747d01
+      internalID: -680673846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a58c0fe3562154990813910dc69ffe
+      internalID: -864866929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_6
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5caeac88e44704fa404ad446b8651f
+      internalID: 726367170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5490f0cd8e4a04c478d6496aa1a46d0e
+      internalID: 541851568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9298f32895c67b4c823499b16005155
+      internalID: 816024390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d94764b6887fe749bdc8bb80581a821
+      internalID: -1770759593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_10
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe78beee18aff442b8b4db90e191362
+      internalID: -602558945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_11
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9181962d8e9384eaabab707e735fff
+      internalID: 547988003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_12
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547be8dd6ab2fa74ab4c8a883baaccab
+      internalID: -1435189890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_13
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f51c6893fbd18c4e8b06abbae75bc64
+      internalID: -1516518009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaed6311ec0c2944586ddce224e6a8b5
+      internalID: -1417148069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1162608827bedd4d9c7c8172edb8b5b
+      internalID: 873055612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc01273b688a97a4a88309cb0c94ace8
+      internalID: 881491983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_17
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9733544ce254e4594ea25360235613
+      internalID: -633186018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_18
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05a29a9f32390044a60d795ac60e659
+      internalID: 1616727251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_19
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0443e0bafe2df1418460235e08f43b7
+      internalID: -1085210086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_20
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5139401faee94c54ca84b1f0f4afcd70
+      internalID: -1563679176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605d7a7b567a4d4428e65ddae3b8891f
+      internalID: -806044169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29b59cd12a14e3429b0396b95cfdd32
+      internalID: 1368195996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_23
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcffd5523f26df643957d691a68911d4
+      internalID: 44416551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faef2ba3a505b564bac6676253ca8ed0
+      internalID: 1193196611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_25
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326a001fded0371469b47f760cb1276c
+      internalID: -469295004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_26
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fc54c9fc45f5f40b4acf777624817d
+      internalID: 2004491543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_27
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d1b48fd4ba9094cbe68b3fb46838f8
+      internalID: 583983637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230138ab6dc2da243b8d3453bdaae8c9
+      internalID: 1217416648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_29
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f2c9da30e5e8c4aa83c91770ddfbf6
+      internalID: -1163027695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_30
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e26657eeeeae1445a1c1eb646b1ef16
+      internalID: -1380258157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_31
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17135144d155fdd40a0b2aba9d3a33ee
+      internalID: -172421671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_32
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cca9c6efdbae47469898fc72783ffb6
+      internalID: -441992039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_33
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a880c9bed4cae9740bf8e9e145893ea3
+      internalID: -55663037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_34
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1d05f0225dc10409565ac122844a96
+      internalID: 1485702001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514dd9d02700b7a48aba822736e0d494
+      internalID: -1540527104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82fe4df8be9d8f4784b55dbc2dd24ef
+      internalID: 288594141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_37
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddfeed4a7ac91d49b9a6cbbf2de580b
+      internalID: -696256069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb4ea0d1b96a7942a3d9787d4f1cf66
+      internalID: 498300381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_39
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9902d7a2c640384ab2b6ba57873ef1f
+      internalID: 39291259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_40
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d7f583725f16443841c43bb469dc01
+      internalID: 648096627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_41
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c87a986cc962d45bafb1bbe488c76e
+      internalID: -211408279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab67c9a63ba016f44a03e197a457ce66
+      internalID: -1685583585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_43
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7217abb1d96d5d9409d4c247402f7cd8
+      internalID: -259420126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f800b1023b8e8f4bb669888e78364ce
+      internalID: -1433220250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_45
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dfd3dacc6bd5e42a12155d0a9902d7
+      internalID: -217181376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_46
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163e09ed92871d94083d7cc140f310c0
+      internalID: -1640546208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_47
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1564609b3f71c2b4484bf2d6b5d699e2
+      internalID: 126498993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Godzilla_FireBreath_48
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c036522a2743f640aaae8e77f818e61
+      internalID: 1038781762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4c85192dc1f886f4496b592d0d8547a3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Godzilla_FireBreath_0: 788214712
+      Godzilla_FireBreath_1: 2091502743
+      Godzilla_FireBreath_10: -602558945
+      Godzilla_FireBreath_11: 547988003
+      Godzilla_FireBreath_12: -1435189890
+      Godzilla_FireBreath_13: -1516518009
+      Godzilla_FireBreath_14: -1417148069
+      Godzilla_FireBreath_15: 873055612
+      Godzilla_FireBreath_16: 881491983
+      Godzilla_FireBreath_17: -633186018
+      Godzilla_FireBreath_18: 1616727251
+      Godzilla_FireBreath_19: -1085210086
+      Godzilla_FireBreath_2: -984776804
+      Godzilla_FireBreath_20: -1563679176
+      Godzilla_FireBreath_21: -806044169
+      Godzilla_FireBreath_22: 1368195996
+      Godzilla_FireBreath_23: 44416551
+      Godzilla_FireBreath_24: 1193196611
+      Godzilla_FireBreath_25: -469295004
+      Godzilla_FireBreath_26: 2004491543
+      Godzilla_FireBreath_27: 583983637
+      Godzilla_FireBreath_28: 1217416648
+      Godzilla_FireBreath_29: -1163027695
+      Godzilla_FireBreath_3: -571723396
+      Godzilla_FireBreath_30: -1380258157
+      Godzilla_FireBreath_31: -172421671
+      Godzilla_FireBreath_32: -441992039
+      Godzilla_FireBreath_33: -55663037
+      Godzilla_FireBreath_34: 1485702001
+      Godzilla_FireBreath_35: -1540527104
+      Godzilla_FireBreath_36: 288594141
+      Godzilla_FireBreath_37: -696256069
+      Godzilla_FireBreath_38: 498300381
+      Godzilla_FireBreath_39: 39291259
+      Godzilla_FireBreath_4: -680673846
+      Godzilla_FireBreath_40: 648096627
+      Godzilla_FireBreath_41: -211408279
+      Godzilla_FireBreath_42: -1685583585
+      Godzilla_FireBreath_43: -259420126
+      Godzilla_FireBreath_44: -1433220250
+      Godzilla_FireBreath_45: -217181376
+      Godzilla_FireBreath_46: -1640546208
+      Godzilla_FireBreath_47: 126498993
+      Godzilla_FireBreath_48: 1038781762
+      Godzilla_FireBreath_5: -864866929
+      Godzilla_FireBreath_6: 726367170
+      Godzilla_FireBreath_7: 541851568
+      Godzilla_FireBreath_8: 816024390
+      Godzilla_FireBreath_9: -1770759593
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
