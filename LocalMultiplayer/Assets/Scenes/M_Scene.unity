@@ -8130,8 +8130,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5502739, y: 0.8539366, z: 0.40024447}
-  m_Center: {x: -0.057998657, y: -0.07303169, z: 0.29987776}
+  m_Size: {x: 0.5502739, y: 0.8539366, z: 0.9861243}
+  m_Center: {x: -0.057998657, y: -0.07303169, z: 0.0069378614}
 --- !u!23 &452179500
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29640,9 +29640,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6860783208578127741, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
-      propertyPath: bulletSpeed
-      value: 100
+    - target: {fileID: 1074912257296935011, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
+      propertyPath: m_Size.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3431998273627261690, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
+      propertyPath: m_Size.z
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7108290004294789643, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29684,13 +29688,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7800460244307461348, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
-      propertyPath: bulletSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7841592500505881829, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
-      propertyPath: bulletSpeed
-      value: 100
+    - target: {fileID: 7965162952330242690, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
+      propertyPath: m_Size.z
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8308932142887082554, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
       propertyPath: m_Name
@@ -31546,8 +31546,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.47322178, y: 0.7302556, z: 0.20437884}
-  m_Center: {x: 0.13281012, y: -0.13487218, z: -0.39781058}
+  m_Size: {x: 0.47322178, y: 0.7302556, z: 1.0321121}
+  m_Center: {x: 0.13281012, y: -0.1348722, z: 0.01605606}
 --- !u!23 &1864847192
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35267,6 +35267,8 @@ PrefabInstance:
     - {fileID: 8881717826821137715, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
     - {fileID: 5202954955890030250, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
     - {fileID: 5235074344029986475, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
+    - {fileID: 7213367477585480546, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
+    - {fileID: 3578045249834578436, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}

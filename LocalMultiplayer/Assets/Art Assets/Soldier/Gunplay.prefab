@@ -1320,7 +1320,7 @@ MonoBehaviour:
   bulletSpawn: {fileID: 6497915979871162083}
   targetTag: Player
   fireRate: 2
-  bulletSpeed: 10
+  bulletSpeed: 100
 --- !u!1 &4801940005685291632
 GameObject:
   m_ObjectHideFlags: 0

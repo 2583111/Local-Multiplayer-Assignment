@@ -5,13 +5,21 @@ public class SoldierController : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
-    public string targetTag = "Player"; // Ensure this tag is correct
-    public float fireRate = 2f;
-    public float bulletSpeed = 10f;
+    public string targetTag = "Play"; // Change this to whatever tag your target has
+    public float fireRate = 2f; // Time between shots
+    public float bulletSpeed = 10f; // Speed of bullet movement
+
+    public float defaultScore = 20;
+
+    private GameObject player1;
+    private GameObject player2;
 
     private void Start()
     {
         StartCoroutine(AutoFire());
+
+        player1 = GameObject.Find("Player 1");
+        player2 = GameObject.Find("Player 2");
     }
 
     private IEnumerator AutoFire()
@@ -48,19 +56,41 @@ public class SoldierController : MonoBehaviour
 
     private void ShootAtTarget(GameObject target)
     {
-        GameObject spawnedBullet = Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+        GameObject spawnedBullet = Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.transform.rotation);
+        StartCoroutine(MoveBulletToTarget(spawnedBullet, target.transform));
+    }
 
-        // Align bullet to face target
-        spawnedBullet.transform.LookAt(target.transform.position);
-
-        // Apply velocity to move forward
-        Rigidbody rb = spawnedBullet.GetComponent<Rigidbody>();
-        if (rb != null)
+    private IEnumerator MoveBulletToTarget(GameObject bullet, Transform target)
+    {
+        while (bullet != null && target != null)
         {
-            rb.linearVelocity = spawnedBullet.transform.forward * bulletSpeed;
+            bullet.transform.position = Vector3.MoveTowards(bullet.transform.position, target.position, bulletSpeed * Time.deltaTime);
+            if (Vector3.Distance(bullet.transform.position, target.position) < 0.1f)
+            {
+                Destroy(bullet);
+                break;
+            }
+            yield return null;
+        }
+    }
+
+    public void Die(int thisPlayer)
+    {
+        Destroy(gameObject);
+
+        if (thisPlayer == 0)
+        {
+            PlayerController p1 = player1.GetComponent<PlayerController>();
+            p1.playerScore += defaultScore;
+            p1.updateScore();
         }
 
-        // Destroy bullet after 5 seconds if it doesn't hit anything
-        Destroy(spawnedBullet, 5f);
+        else
+        {
+            PlayerController p2 = player2.GetComponent<PlayerController>();
+            p2.playerScore += defaultScore;
+            p2.updateScore();
+        }
     }
+
 }

@@ -199,11 +199,6 @@ public class PlayerController : MonoBehaviour
             isGrounded = true;
         }
 
-        /*if (collision.gameObject.CompareTag("Bullet"))
-        {
-            Debug.Log("Hit");
-            TakeDamage(5);
-        }*/
     }
 
     private void OnTriggerStay(Collider other)
@@ -217,29 +212,47 @@ public class PlayerController : MonoBehaviour
                 // Latch onto building
                 isClimbing = true;
 
-                gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, other.transform.position.z-1.8f);
+                gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, other.transform.position.z - 1.8f);
 
                 rb.linearVelocity = Vector3.zero;
                 rb.useGravity = false;
                 animator.SetBool("isJumping", false);
                 animator.SetBool("isClimbing", true);
-               
+
 
             }
 
             if (isPunching)
             {
-                //Debug.Log("Punched building");
-                other.gameObject.GetComponent<BlockManager>().TakeDamage(whichPlayer);
+                BlockManager blockManager = other.gameObject.GetComponent<BlockManager>();
+
+
+                if (blockManager != null)
+                {
+                    blockManager.TakeDamage(whichPlayer);
+                }
+
+
             }
         }
 
-        /*if (other.CompareTag("Bullet"))
+        if (other.CompareTag("Enemy"))
         {
-            Debug.Log("Hit");
-            TakeDamage(5);
-        }*/
+            Debug.Log("In Enemy");
+            if (isPunching)
+            {
+                SoldierController soldierController = other.gameObject.GetComponent<SoldierController>();
 
+                if (soldierController != null)
+                {
+                    Debug.Log("enemy");
+                    soldierController.Die(whichPlayer); // Replace with the actual function you want to call
+                }
+
+            }
+
+
+        }
     }
 
    
