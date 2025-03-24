@@ -30,6 +30,7 @@ public class BlockManager : MonoBehaviour
         if (hitCount == 0)
         {
             bM.GetComponent<BuildingManager>().CheckDestruction();
+            Debug.Log("Destroyed");
         }
 
         if (Time.time >= colliderWait)
@@ -43,7 +44,7 @@ public class BlockManager : MonoBehaviour
     public void TakeDamage(int thisPlayer)
     {
         GetComponent<BoxCollider>().enabled = false;
-        Debug.Log("Taken damage");
+        //Debug.Log("Taken damage");
         hitCount -= 1;
 
         if (Time.time > colliderWait)
@@ -75,6 +76,8 @@ public class BlockManager : MonoBehaviour
 
             GetComponent<MeshRenderer>().material = bM.GetComponent<BuildingManager>().Zero_Mat;
             GetComponent<BoxCollider>().enabled = false;
+
+            bM.GetComponent<BuildingManager>().Parts.Remove(this.gameObject);
         }
     }
 

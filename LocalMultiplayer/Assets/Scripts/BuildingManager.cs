@@ -18,7 +18,7 @@ public class BuildingManager : MonoBehaviour
 
     public void CheckDestruction()
     {
-        CountChildren();
+        //CountChildren();
 
         if (Parts.Count == 0)
         {

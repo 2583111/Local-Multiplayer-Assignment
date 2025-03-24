@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     private GameObject MainCamera;
     public int currentScreen = 0;
 
+    public GameObject goUI;
+
 
     private void Start()
     {

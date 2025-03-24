@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 playerDirection;
     private Rigidbody rb;
     public bool isGrounded;
+    public bool isRoofed;
     public bool isClimbing = false; // Track if player is climbing
     public bool isPunching;
     private Animator animator;
@@ -183,9 +184,14 @@ public class PlayerController : MonoBehaviour
 
         playerTransform.localRotation = Quaternion.Lerp(playerTransform.localRotation, targetRotation, rotationSpeed * Time.deltaTime);
 
-        if (isGrounded)
+        if (isGrounded && !isRoofed)
         {
             gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, playerZPos);
+        }
+
+        if (isGrounded && isRoofed)
+        {
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, -0.25f);
         }
        
 
