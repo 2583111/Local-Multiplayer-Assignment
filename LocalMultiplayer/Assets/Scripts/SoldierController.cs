@@ -11,6 +11,8 @@ public class SoldierController : MonoBehaviour
 
     public float defaultScore = 20;
 
+    public GameObject bloodParticles;
+
     private GameObject player1;
     private GameObject player2;
 
@@ -76,7 +78,8 @@ public class SoldierController : MonoBehaviour
 
     public void Die(int thisPlayer)
     {
-        Destroy(gameObject);
+
+        Instantiate(bloodParticles, gameObject.transform.position, gameObject.transform.rotation);
 
         if (thisPlayer == 0)
         {
@@ -91,6 +94,9 @@ public class SoldierController : MonoBehaviour
             p2.playerScore += defaultScore;
             p2.updateScore();
         }
+
+        Destroy(gameObject);
+
     }
 
 }
