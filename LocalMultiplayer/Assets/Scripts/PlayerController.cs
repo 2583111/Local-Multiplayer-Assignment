@@ -2,6 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -25,12 +26,17 @@ public class PlayerController : MonoBehaviour
 
     public float playerZPos;
 
-
+    public Image healthBar;
+    public float maxHealth = 100;
+    public float currentHealth;
 
     public TextMeshProUGUI Score;
 
     private void Start()
     {
+        currentHealth = maxHealth; // Initialize health
+        UpdateHealthBar();
+
         rb = GetComponent<Rigidbody>();
         animator = GetComponentInChildren<Animator>();
         playerTransform = transform.GetChild(0);
@@ -38,6 +44,26 @@ public class PlayerController : MonoBehaviour
 
         Score.text = playerScore.ToString();
 
+    }
+
+    public void TakeDamage(float damage)
+    {
+        Debug.Log("damaged");
+        currentHealth -= damage;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); // Prevent negative values
+        UpdateHealthBar();
+    }
+
+    public void Heal(float amount)
+    {
+        currentHealth += amount;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+        UpdateHealthBar();
+    }
+
+    private void UpdateHealthBar()
+    {
+        healthBar.fillAmount = currentHealth / maxHealth; // Update fill amount (0 to 1)
     }
 
     public void PlayerWalk(InputAction.CallbackContext ctx)
@@ -172,6 +198,12 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isJumping", false);
             isGrounded = true;
         }
+
+        /*if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Debug.Log("Hit");
+            TakeDamage(5);
+        }*/
     }
 
     private void OnTriggerStay(Collider other)
@@ -201,8 +233,16 @@ public class PlayerController : MonoBehaviour
                 other.gameObject.GetComponent<BlockManager>().TakeDamage(whichPlayer);
             }
         }
+
+        /*if (other.CompareTag("Bullet"))
+        {
+            Debug.Log("Hit");
+            TakeDamage(5);
+        }*/
+
     }
 
+   
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Building"))

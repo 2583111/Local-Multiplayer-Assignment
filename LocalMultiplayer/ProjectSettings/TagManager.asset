@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Building
   - Edge
+  - Bullet
   layers:
   - Default
   - TransparentFX

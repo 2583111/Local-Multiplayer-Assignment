@@ -6,6 +6,9 @@ public class NextScreen : MonoBehaviour
 {
 
     public List<GameObject> allBuildings = new List<GameObject>();
+    public bool canSpawnSoldiers = false;
+    public GameObject soldierSet;
+    public Transform soldierSpawn;
 
     public bool isCleared;
     public bool goBack = false;
@@ -34,6 +37,8 @@ public class NextScreen : MonoBehaviour
         ClearanceCheck();
     }
 
+    private GameObject newSoldiers;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -43,13 +48,27 @@ public class NextScreen : MonoBehaviour
             {
                 GameObject.Find("GameManager").GetComponent<GameManager>().ShiftNext();
                 goBack = true;
+                canSpawnSoldiers = true;
+            }
+
+            if (canSpawnSoldiers)
+            {
+                Debug.Log("spawned");
+                newSoldiers = Instantiate(soldierSet, soldierSpawn);
             }
 
             else if (isCleared && goBack == true)
             {
                 GameObject.Find("GameManager").GetComponent<GameManager>().ShiftBack();
                 goBack = false;
+
+                if (canSpawnSoldiers)
+                {
+                    //Destroy(newSoldiers);
+                }
+
             }
+            
         }
 
     }
