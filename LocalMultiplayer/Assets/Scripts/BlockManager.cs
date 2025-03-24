@@ -30,7 +30,7 @@ public class BlockManager : MonoBehaviour
         if (hitCount == 0)
         {
             bM.GetComponent<BuildingManager>().CheckDestruction();
-            Debug.Log("Destroyed");
+            //Debug.Log("Destroyed");
         }
 
         if (Time.time >= colliderWait)
@@ -58,6 +58,12 @@ public class BlockManager : MonoBehaviour
             GetComponent<MeshRenderer>().material = bM.GetComponent<BuildingManager>().Half_Mat;
         }
 
+        if (hitCount == 1)
+        {
+            //gameObject.GetComponent<MeshFilter>().mesh = buildingState1;
+            GetComponent<MeshRenderer>().material = bM.GetComponent<BuildingManager>().Zero_Mat;
+        }
+
         if (hitCount == 0)
         {
             if (thisPlayer == 0)
@@ -74,10 +80,13 @@ public class BlockManager : MonoBehaviour
                 p2.updateScore();
             }
 
-            GetComponent<MeshRenderer>().material = bM.GetComponent<BuildingManager>().Zero_Mat;
+           
             GetComponent<BoxCollider>().enabled = false;
+            GetComponent<MeshRenderer>().enabled = false;
 
             bM.GetComponent<BuildingManager>().Parts.Remove(this.gameObject);
+
+            //Destroy(gameObject);
         }
     }
 
