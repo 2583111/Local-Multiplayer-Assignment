@@ -8,17 +8,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1572762901704851530, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 8601537226709192164, guid: 0d53a6300ee927641a89019e371cc1ea, type: 3}
+    - target: {fileID: 4643019026861701420, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 8601537226709192164, guid: 0d53a6300ee927641a89019e371cc1ea, type: 3}
     - target: {fileID: 7108290004294789643, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.568838
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7108290004294789643, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6168884
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7108290004294789643, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.3231153
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7108290004294789643, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48,6 +56,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7841592500505881829, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 8601537226709192164, guid: 0d53a6300ee927641a89019e371cc1ea, type: 3}
     - target: {fileID: 8308932142887082554, guid: fd136f8e44120944c9c57c6dd30623af, type: 3}
       propertyPath: m_Name
       value: Soldier Set2 Variant
@@ -88,6 +100,10 @@ PrefabInstance:
       propertyPath: bulletSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7270041833519618848, guid: 895c29305c4b3014480212a1ce0c7829, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 8601537226709192164, guid: 0d53a6300ee927641a89019e371cc1ea, type: 3}
     - target: {fileID: 7935623913815930907, guid: 895c29305c4b3014480212a1ce0c7829, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.40000004
@@ -229,6 +245,10 @@ PrefabInstance:
       propertyPath: bulletSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7270041833519618848, guid: 895c29305c4b3014480212a1ce0c7829, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 8601537226709192164, guid: 0d53a6300ee927641a89019e371cc1ea, type: 3}
     - target: {fileID: 7935623913815930907, guid: 895c29305c4b3014480212a1ce0c7829, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.40000004

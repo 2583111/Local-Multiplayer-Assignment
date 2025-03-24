@@ -54,6 +54,10 @@ PrefabInstance:
       propertyPath: bulletSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7270041833519618848, guid: 895c29305c4b3014480212a1ce0c7829, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 8601537226709192164, guid: 0d53a6300ee927641a89019e371cc1ea, type: 3}
     - target: {fileID: 7935623913815930907, guid: 895c29305c4b3014480212a1ce0c7829, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -183,6 +187,10 @@ PrefabInstance:
       propertyPath: bulletSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7270041833519618848, guid: 895c29305c4b3014480212a1ce0c7829, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 8601537226709192164, guid: 0d53a6300ee927641a89019e371cc1ea, type: 3}
     - target: {fileID: 7935623913815930907, guid: 895c29305c4b3014480212a1ce0c7829, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.40000004
@@ -324,6 +332,10 @@ PrefabInstance:
       propertyPath: bulletSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7270041833519618848, guid: 895c29305c4b3014480212a1ce0c7829, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 8601537226709192164, guid: 0d53a6300ee927641a89019e371cc1ea, type: 3}
     - target: {fileID: 7935623913815930907, guid: 895c29305c4b3014480212a1ce0c7829, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.40000004

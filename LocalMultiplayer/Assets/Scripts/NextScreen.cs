@@ -16,6 +16,8 @@ public class NextScreen : MonoBehaviour
 
     private GameObject goUI;
 
+    public bool lastOne;
+
     private void Start()
     {
         foreach (Transform child in gameObject.transform)
@@ -27,22 +29,22 @@ public class NextScreen : MonoBehaviour
         goUI.SetActive(false); // Ensure UI is initially disabled
     }
 
+    private bool hasShownUI = false; // Prevents multiple UI displays
+
     private void Update()
     {
-        if (isCleared)
+        if (isCleared && !hasShownUI)
         {
+            hasShownUI = true; // Set flag to prevent multiple calls
             StartCoroutine(ShowGoUI());
         }
-    }
 
-    private void ClearanceCheck()
-    {
-        if (allBuildings.Count < 1)
+        if (lastOne)
         {
-            Debug.Log("Go");
-            isCleared = true;
-           
-
+            if (isCleared)
+            {
+                GameObject.Find("GameManager").GetComponent<GameManager>().CheckWinner();
+            }
         }
     }
 
@@ -52,6 +54,19 @@ public class NextScreen : MonoBehaviour
         yield return new WaitForSeconds(3f); // Show for 3 seconds
         goUI.SetActive(false);
     }
+
+    private void ClearanceCheck()
+    {
+        if (allBuildings.Count < 3)
+        {
+            Debug.Log("Go");
+            isCleared = true;
+           
+
+        }
+    }
+
+
 
     public void ClearFromList(GameObject that)
     {
@@ -70,7 +85,7 @@ public class NextScreen : MonoBehaviour
             {
                 GameObject.Find("GameManager").GetComponent<GameManager>().ShiftNext();
                 goBack = true;
-                canSpawnSoldiers = true;
+                //canSpawnSoldiers = true;
 
                 if (canSpawnSoldiers)
                 {

@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     public float currentHealth;
 
     public TextMeshProUGUI Score;
+    public GameObject DeadUI;
 
     private void Start()
     {
@@ -147,6 +148,14 @@ public class PlayerController : MonoBehaviour
         if (Time.time >= nextswing && isPunching)
         {
             isPunching = false;
+
+        }
+
+        if (currentHealth == 0)
+        {
+            Debug.Log("Dead!");
+            DeadUI.SetActive(true);
+            Destroy(gameObject);
         }
 
         if (isClimbing)
